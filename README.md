@@ -18,3 +18,12 @@ After running the command, you should see output indicating that the server is r
 2. Run the command `pytest` in your terminal.
 
 This will discover and run all test cases in the `tests` directory. Make sure you have the `pytest` package installed. If not, you can install it with `pip install pytest`.
+
+## Running the Application with Docker Compose
+
+1. Build the Docker images by running the command `docker-compose build` in your terminal.
+2. Start the application by running the command `docker-compose up` in your terminal.
+
+After running these commands, you should see output indicating that the application and the MongoDB database are running. You can then access the application by navigating to `http://localhost:8000` in your web browser.
+
+To stop the application, press `Ctrl+C` in your terminal. To remove the containers entirely, run `docker-compose down`.
